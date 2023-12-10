@@ -16,8 +16,8 @@
         InitializeComponent();
 
         myPicker.ItemsSource = namesList;
-
-    }//main
+                    
+    }//main 
 
 }//class
      }//namespace
