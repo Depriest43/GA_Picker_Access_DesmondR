@@ -8,14 +8,15 @@
             Spacing="25"
             Padding="30,0"
             VerticalOptions="Center">
-<Picker x:Name="myPicker" Title="Choose a name" 
-        SelectedIndexChanged="OnPickerSelectedIndexChanged" />
-<Label Text="Enter a name" />
-
+            
+            <Picker x:Name="myPicker" Title="Choose a name" 
+SelectedIndexChanged="OnPickerSelectedIndexChanged" />
+            <Label Text="Enter a name" />
+            
             <Editor x:Name="editorAddName" />
             <Button x:Name="buttonAddName" Text="Add a name" Clicked="OnButtonAddNameClicked" />
-
             <Label x:Name="labelDisplayChosenNameHere" />
+
         </VerticalStackLayout>
     </ScrollView>
 
